@@ -26,7 +26,7 @@ import java.util.*;
  * <p>Parses a JSON test results file and publishes results to JTM.
  * Creates a TestRun record and updates individual TestCase statuses.
  *
- * <h3>JSON Schema for results file:</h3>
+ * <h2>JSON Schema for results file:</h2>
  * <pre>{@code
  * {
  *   "runName":    "Sprint 14 Regression",
@@ -47,7 +47,7 @@ import java.util.*;
  * }
  * }</pre>
  *
- * <h3>Pipeline DSL Usage:</h3>
+ * <h2>Pipeline DSL Usage:</h2>
  * <pre>{@code
  * publishJTMResults resultsFile: 'test-results/jtm-results.json'
  *

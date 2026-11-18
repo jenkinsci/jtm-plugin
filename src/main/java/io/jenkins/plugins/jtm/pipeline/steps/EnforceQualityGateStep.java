@@ -22,7 +22,7 @@ import java.util.Set;
  * <p>Evaluates configured quality gate conditions for the most recent
  * test run associated with this build. Optionally fails the build.
  *
- * <h3>Pipeline DSL Usage:</h3>
+ * <h2>Pipeline DSL Usage:</h2>
  * <pre>{@code
  * // Standard usage — fails build if gate fails
  * enforceQualityGate minPassRate: 95

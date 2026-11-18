@@ -21,7 +21,7 @@ import java.util.Set;
  * <p>Updates the status of a test case from within a Jenkins Pipeline.
  * Used for both automated synchronization and manual status overrides.
  *
- * <h3>Pipeline DSL Usage:</h3>
+ * <h2>Pipeline DSL Usage:</h2>
  * <pre>{@code
  * // Minimal usage
  * updateTestCase testCaseId: 'TC-0001', status: 'PASSED'
