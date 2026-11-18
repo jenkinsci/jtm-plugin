@@ -45,7 +45,7 @@ jobs:
 
   e2e-smoke:
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       JENKINS_BASE_URL: ${{ secrets.JENKINS_BASE_URL }}
       JENKINS_USER: ${{ secrets.JENKINS_USER }}
